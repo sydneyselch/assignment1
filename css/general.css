@@ -57,13 +57,7 @@ h1 {
     text-align:center;
     line-height:5.5rem;
     color:white;
-text-shadow: 4px 4px black;
-}
-
-.paraone {
-    font-size:1.25rem;
-    line-height:1.75rem;
-    font-weight:bold; 
+    text-shadow: 4px 4px black;
 }
 
 .billboard {
@@ -77,9 +71,23 @@ text-shadow: 4px 4px black;
     border:5rem;
 }
 
+.paraone {
+    font-size:1.25rem;
+    line-height:2rem;
+    font-weight:bold; 
+}
+
 p {
     line-height:1.5rem;
     margin:1re 0 1.5rem; 
+}
+
+ .dropcap:first-letter{
+    font-size:4.8rem;
+    font-weight:bold;
+    float: left;
+    margin: 1.6rem .3rem .1rem 0;
+    color: pink;
 }
 
 figure {

@@ -146,6 +146,7 @@ blockquote p:after {
 }
 ul {
     list-style-type:none;
+    text-transform:uppercase;
 }
     
  details {

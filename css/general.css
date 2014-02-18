@@ -144,7 +144,10 @@ blockquote p:after {
     color:pink;
     margin: .2rem 0;
 }
-
+ul {
+    list-style-type:none;
+}
+    
  details {
     font-size:1rem;
     margin: .25rem 2% 1.5rem;

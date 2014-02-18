@@ -43,7 +43,6 @@ body {
     margin: .25rem auto .25rem;
     overflow:hidden;
 }
-
 article {
     margin: 1rem;
     padding: 0 1% 0; 
@@ -60,7 +59,7 @@ h1 {
     line-height:3rem;
     color:pink;
     text-shadow: 4px 4px black;
-    background-color: rgba(255, 240, 255, .6);
+    background-color: rgba(25, 5, 5, .6);
 } 
 
 .billboard {

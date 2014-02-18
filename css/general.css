@@ -144,7 +144,8 @@ blockquote p:after {
     color:pink;
     margin: .2rem 0;
 }
-ul {
+
+li {
     list-style-type:none;
     text-transform:uppercase;
 }

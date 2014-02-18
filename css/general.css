@@ -148,11 +148,12 @@ blockquote p:after {
 li {
     list-style-type:none;
     text-transform:uppercase;
+    font-weight:bold;
 }
     
  details {
     font-size:1rem;
-    margin: .25rem 2% 1.5rem;
+    margin: .25rem 2% 0;
     text-transform:none;
 }
 

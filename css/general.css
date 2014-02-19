@@ -144,21 +144,44 @@ blockquote p:after {
     margin: .2rem 0;
 }
 
-li {
+h2 {
+    font-size:2rem;
+    margin: 0;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+}
+
+h3 {
+    margin:.1rem 1% .25rem;
+}
+ 
+summary { /* triangle next to details */
+    color:pink; 
+}
+
+ul {
+    margin: .25rem 0 .25rem;
+        float:left;
+}
+
+li { /* title of each detail */ 
     list-style-type:none;
     text-transform:uppercase;
     font-weight:bold;
-    color:pink;
-    margin: 0 5% 5;
+    letter-spacing:-.02rem;
+    margin: 0 % .25rem;
+    color: black; 
     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
 }
     
- details {
+ details { /* extended deatils inside of triangle */ 
     font-size:1rem;
     margin: 0;
-    text-transform:none;
+    text-transform:none; 
 }
-
+	
+details: {
+    list-style-type: none;
+}
 
 footer {
     background-color:pink; 
@@ -166,11 +189,16 @@ footer {
 }
 
 footer p {
-    margin: .5rem 1% 3rem; 
+    margin: 1rem 1% 0; 
     color: white;
     font-size: .75rem; 
 } 
 
 footer a {
     color: white; 
+    margin: 0 0 3rem;
 } 
+
+.source2 {
+    margin: 0 11.5% 3rem;
+}

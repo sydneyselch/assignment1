@@ -155,21 +155,21 @@ h3 {
     font-size:1.25rem
 }
 
-ul {
+dl {
     margin: 0;
     line-height:1rem;
 }
 
-li { /* title of each detail */ 
+dt { /* title of each detail */ 
     text-transform:uppercase;
     font-weight:bold;
     letter-spacing:-.01rem;
-    margin:1rem 0 0;
+    margin:1rem 5% 0;
     color: pink; 
     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
 }
-    li + p {
-    margin: .25rem 0 1.5rem;
+    dt + p {
+    margin: .25rem 5% 1.5rem;
     font-size:1rem;
     line-height:1.5rem;    
 }

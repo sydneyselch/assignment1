@@ -45,8 +45,8 @@ body {
     overflow:hidden;
 }
 article {
-    margin: 1rem;
-    padding: 0 1% 0; 
+    margin:0 0 1.5rem;
+    padding: 0 5% 0; 
     overflow: hidden; 
 }
 
@@ -146,17 +146,17 @@ blockquote p:after {
 
 h2 {
     font-size:2.25rem;
-    margin: 0;
+    margin: 1.2rem 1% 0;
     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
 }
 
 h3 {
-    margin:.1rem 1% .25rem;
+    margin:.1rem 2% .25rem;
     font-size:1.25rem
 }
 
 h3 + p {
-    margin: 0 1% 0;
+    margin: 0 2% 0;
 }
 
 small {
@@ -171,17 +171,15 @@ summary { /* triangle next to details */
 }
 
 ul {
-    list-style-type:georgian;
     margin: 0;
-    
 }
 
 li { /* title of each detail */ 
     list-style-type:none;
     text-transform:uppercase;
     font-weight:bold;
-    letter-spacing:-.02rem;
-    margin: 0 % .25rem;
+    letter-spacing:-.01rem;
+    margin:0 2% 0;
     color: black; 
     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
 }
@@ -192,17 +190,13 @@ li { /* title of each detail */
     text-transform:none; 
 }
 	
-details: {
-    list-style-type: none;
-}
-
 footer {
     background-color:pink; 
     overflow: hidden; 
 }
 
 footer p {
-    margin: 1rem 1% 0; 
+    margin: 1rem 5% 0; 
     color: white;
     font-size: .75rem; 
 } 
@@ -213,5 +207,5 @@ footer a {
 } 
 
 .source2 {
-    margin: 0 11.5% 3rem;
+    margin: 0 15.5% 3rem;
 }

@@ -145,22 +145,35 @@ blockquote p:after {
 }
 
 h2 {
-    font-size:2rem;
+    font-size:2.25rem;
     margin: 0;
     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
 }
 
 h3 {
     margin:.1rem 1% .25rem;
+    font-size:1.25rem
 }
- 
+
+h3 + p {
+    margin: 0 1% 0;
+}
+
+small {
+    font-size:.75rem;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    text-transform:uppercase; 
+}
+
 summary { /* triangle next to details */
-    color:pink; 
+    color:pink;
+    margin: .25rem 0 .25rem;
 }
 
 ul {
-    margin: .25rem 0 .25rem;
-        float:left;
+    list-style-type:georgian;
+    margin: 0;
+    
 }
 
 li { /* title of each detail */ 

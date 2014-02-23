@@ -155,40 +155,25 @@ h3 {
     font-size:1.25rem
 }
 
-h3 + p {
-    margin: 0 2% 0;
-}
-
-small {
-    font-size:.75rem;
-    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
-    text-transform:uppercase; 
-}
-
-summary { /* triangle next to details */
-    margin: .25rem 0 .25rem;
-}
-
 ul {
     margin: 0;
+    line-height:1rem;
 }
 
 li { /* title of each detail */ 
-    list-style-type:none;
     text-transform:uppercase;
     font-weight:bold;
     letter-spacing:-.01rem;
-    margin:1rem 0 .25rem;
+    margin:1rem 0 0;
     color: pink; 
     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
 }
-    
- details { /* extended deatils inside of triangle */ 
+    li + p {
+    margin: .25rem 0 1.5rem;
     font-size:1rem;
-    margin: 0;
-    text-transform:none; 
+    line-height:1.5rem;    
 }
-	
+
 footer {
     background-color:pink; 
     overflow: hidden; 

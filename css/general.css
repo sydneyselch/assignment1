@@ -166,7 +166,6 @@ small {
 }
 
 summary { /* triangle next to details */
-    color:pink;
     margin: .25rem 0 .25rem;
 }
 
@@ -179,8 +178,8 @@ li { /* title of each detail */
     text-transform:uppercase;
     font-weight:bold;
     letter-spacing:-.01rem;
-    margin:0 2% 0;
-    color: black; 
+    margin:1rem 0 .25rem;
+    color: pink; 
     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
 }
     

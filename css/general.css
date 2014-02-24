@@ -168,7 +168,7 @@ dt { /* title of each detail */
     color: pink; 
     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
 }
-    dt + p {
+ dd {
     margin: .25rem 5% 1.5rem;
     font-size:1rem;
     line-height:1.5rem;    
